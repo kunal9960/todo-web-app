@@ -6,13 +6,13 @@ todos = functions.get_todos()
 
 def add_todo():
     todo = st.session_state["new_todo"] + "\n"
-    todos.append(todo)
+    todos.append(todo.capitalize())
     functions.write_todos(todos)
 
 
 st.title("My Todo App")
 st.subheader("Welcome to my todo app!")
-st.write("This app helps to increase your productivity")
+st.write("This app helps to increase your productivity.")
 
 
 for index, todo in enumerate(todos):
@@ -25,5 +25,3 @@ for index, todo in enumerate(todos):
 
 st.text_input(label="", placeholder="Add new todo...",
               on_change=add_todo, key='new_todo')
-
-
