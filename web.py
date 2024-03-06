@@ -12,7 +12,7 @@ def add_todo():
 
 st.title("My Todo App")
 st.subheader("Welcome to my todo app!")
-st.write("This app helps to increase your <b>productivity</b>",
+st.write("This app helps to increase your <b>productivity</b>.",
          unsafe_allow_html=True)
 
 
