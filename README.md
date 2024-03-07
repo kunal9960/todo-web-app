@@ -1,4 +1,4 @@
-# Todo Web App
+# Todo Web App 📝 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 <p>
 Welcome to the Todo Web App, 
 a simple yet powerful application to help you manage your daily tasks efficiently. 
